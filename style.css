@@ -1,0 +1,168 @@
+@import "UTF-08";
+@font-face {
+    font-family: 'idroid';
+    src: url(idroid.otf);
+    font-weight: normal;
+}
+
+*{  
+    margin: 0;
+    padding: 0;
+    
+}
+:root{
+ --verdedestaque: #195729;
+ --verdexoxo:  #6cad7cb0;
+ --fontedroid: 'idroid';
+ --fontenormal: Arial, Verdana, Helvetica, sans-serif;
+}
+
+header {
+    min-height: 140px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.534);
+background-image: linear-gradient(to bottom, #6CD987, #53A668, #1A5C2A);
+color: white;
+padding-top: 40px;
+
+}
+header > h1{
+    font-family: var(--fontedroid);
+    text-align: center;
+    margin-bottom: 20px;
+}
+header > p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+nav {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    background-color: #164b23;
+    font-family: var(--fontedroid);
+}
+nav a {
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+main{
+    margin: auto;
+    border-bottom: 5px;
+    background-color: white;
+    min-width: 280px;
+    max-width: 850px;
+    padding: 20px;
+    text-align: justify;
+}
+
+main h1 {
+    color: var(--verdedestaque);
+    font-family: var(--fontedroid);
+    margin-bottom: 10px;
+}
+
+main h2 {
+    color: var(--verdedestaque);
+    background-image: linear-gradient(to right, #B3DFBE, white );
+    font-family: var(--fontedroid);
+    margin-bottom: 10px;
+    text-indent: 8px;
+}
+
+main a {
+    color: var(--verdedestaque);
+    text-decoration: none;
+    background-color: var(--verdexoxo) ;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+
+main a:hover {
+text-decoration: underline;
+}
+
+main > p {
+    color: black;
+    text-indent: 30px;
+    margin: 15px;
+    text-align: justify;
+    line-height: 1.5em;
+
+}
+
+main picture img {
+   
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    size: 100%;
+}
+main picture img.droidpet {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+div.videoplay {
+    margin: auto;
+    background-color: #195729;
+    margin: 0px -20px 30px -20px;
+}
+
+div iframe {
+
+}
+
+body{
+margin: auto;
+background-color: #B3DFBE;
+font-family: var(--fontenormal);
+
+}
+
+aside{
+    background-color: #89d49c;
+    padding: 20px 10px;
+    border-radius: 10px;
+   
+}
+ 
+aside ul {
+    columns: 2;
+    list-style-position: inside;
+}
+ aside p {
+    padding: 10px 0px;
+ }
+ aside h4{
+    padding: 5px;
+    background-color: #247037;
+    margin: -20px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+ }
+
+footer {
+background-image: linear-gradient(to bottom,#89d49c, #195729 );
+min-height: 50px;
+color: white;
+font-family: var(--fontenormal);
+text-align: center;
+}
+footer p {
+    padding: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
