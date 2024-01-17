@@ -36,6 +36,7 @@ header > p {
 }
 
 nav {
+    
     padding: 5px;
     color: white;
     text-decoration: none;
@@ -46,7 +47,8 @@ nav a {
     margin: auto;
     color: white;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 10px;
+
 }
 
 
@@ -60,13 +62,13 @@ main{
     text-align: justify;
 }
 
-main h1 {
+section h1 {
     color: var(--verdedestaque);
     font-family: var(--fontedroid);
     margin-bottom: 10px;
 }
 
-main h2 {
+section h2 {
     color: var(--verdedestaque);
     background-image: linear-gradient(to right, #B3DFBE, white );
     font-family: var(--fontedroid);
@@ -74,7 +76,7 @@ main h2 {
     text-indent: 8px;
 }
 
-main a {
+section a {
     color: var(--verdedestaque);
     text-decoration: none;
     background-color: var(--verdexoxo) ;
@@ -86,7 +88,7 @@ main a:hover {
 text-decoration: underline;
 }
 
-main > p {
+main p {
     color: black;
     text-indent: 30px;
     margin: 15px;
@@ -96,7 +98,7 @@ main > p {
 }
 
 main picture img {
-   
+    max-width: 65vw;
     display: block;
     margin: auto;
     margin-bottom: 15px;
@@ -110,17 +112,25 @@ main picture img.droidpet {
 }
 
 div.videoplay {
+    position: relative;
     margin: auto;
     background-color: #195729;
     margin: 0px -20px 30px -20px;
+    padding: 15px;
+    padding-bottom:57.4%;
 }
 
-div iframe {
-
+.videoplay iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
-body{
+html, body{
 margin: auto;
+width: 100vw;
 background-color: #B3DFBE;
 font-family: var(--fontenormal);
 
@@ -141,6 +151,7 @@ aside ul {
     padding: 10px 0px;
  }
  aside h4{
+    color: white;
     padding: 5px;
     background-color: #247037;
     margin: -20px -10px 0px -10px;
@@ -154,8 +165,9 @@ color: white;
 font-family: var(--fontenormal);
 text-align: center;
 }
+
 footer p {
-    padding: 20px;
+    padding: 15px 0px;
 }
 footer a {
     text-decoration: none;
