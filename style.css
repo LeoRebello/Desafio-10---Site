@@ -130,7 +130,7 @@ div.videoplay {
 
 html, body{
 margin: auto;
-width: 100vw;
+width: 100%;
 background-color: #B3DFBE;
 font-family: var(--fontenormal);
 
